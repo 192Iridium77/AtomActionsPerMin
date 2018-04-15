@@ -1,0 +1,18 @@
+{
+  "name": "actions-per-minute",
+  "main": "./lib/actions-per-minute",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "actions-per-minute:toggle"
+  },
+  "repository": "https://github.com/atom/actions-per-minute",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

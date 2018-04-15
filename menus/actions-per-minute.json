@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle actions-per-minute",
+        "command": "actions-per-minute:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "actions-per-minute",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "actions-per-minute:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
